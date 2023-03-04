@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #f7f8fc;
+    margin: 10% 15%;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    line-height: 1.5rem;
+}
+
+.incident {
+    height: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: #e7eafa 0px 10px 40px;
+    border-radius: 5px;
+}
+
+.date {
+    font-weight: 600;
+}
+
+
+button {
+    font-size: .7rem;
+    padding: 4px 14px 4px 14px;
+    margin: 5px 0;
+    border-radius: 3px;
+    background-color: #f7f8fc;
+    border: solid 1px #e6ebf8;
+    color: #555;
+}
+
+i {
+    font-size: .8rem;
+    padding: 2px 0;
+}
+
+#new-incident-btn {
+    font-size: .9rem;
+    padding: 6px 8px;
+    margin: 0 0 0 10px;
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+}
+
+p {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.tag {
+    font-size: .9rem;
+    letter-spacing: 2px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.resolved {
+    background-color: lightgreen;
+    border: solid 1px green;
+}
+
+.monitoring {
+    background-color: lightsalmon;
+    border: solid 1px salmon;
+}
+
+.investigating {
+    background-color: lightcoral;
+    border: solid 1px coral;
+}
+
+.awaiting {
+    background-color: lightyellow;
+    border: solid 1px yellow;
+}
+
+.flex {
+    display: flex;
+}
